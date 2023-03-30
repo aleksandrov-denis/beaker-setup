@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install git bc tar ncurses-devel ccache zstd kernel-devel
+dnf install -y git bc tar ncurses-devel ccache zstd kernel-devel
 
 git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
